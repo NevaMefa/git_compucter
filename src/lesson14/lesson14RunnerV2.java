@@ -2,8 +2,8 @@ package com.nevamefa.cs.lesson14;
 
 public class lesson14RunnerV2 {
     public static void main(String[] args) {
-        // второй вариант когда кейсы пишутс подрд
-        // дл одного вывода
+        // второй вариант когда кейсы пишутся подряд
+        // для одного вывода
         int month = 22;
         switch (month) {
             case 12:
