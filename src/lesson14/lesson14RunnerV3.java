@@ -16,16 +16,16 @@ public class lesson14RunnerV3 {
         //var month = 9;
         //var result = switch (month) {
         // но лучше юзать тип данных
-
-            int month = 9;
-            String result = switch (month) {
-                case 12, 1, 2 -> "Winter";
-                case 3, 4, 5 -> "Spring";
-                case 6, 7, 8 -> "Summer";
-                case 9, 10, 11 -> "Autumn";
-                default -> "You loser";
-        };
-        System.out.printf(result);
+//
+//            int month = 9;
+//            String result = switch (month) {
+//                case 12, 1, 2 -> "Winter";
+//                case 3, 4, 5 -> "Spring";
+//                case 6, 7, 8 -> "Summer";
+//                case 9, 10, 11 -> "Autumn";
+//                default -> "You loser";
+//        };
+//        System.out.printf(result);
     }
 }
 
