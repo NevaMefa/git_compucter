@@ -11,12 +11,24 @@ package Alishev;
 public class alishev11massiv {
     public static void main(String[] args) {
         int number = 10; //примитивный тип данных
-        int []numbers = new int[5]; //ссылочный.Массив переменная ссылается на него. Массив создан/  в массиве 5 пустых ячеек
-        for (int i =0; i<numbers.length; i++){
-            numbers[i] = i*10;
+        int []numbers = new int[5]; //ссылочный.Массив переменная ссылается на него. Массив создан
+        //  в массиве 5 пустых ячеек
+        // переменная ссылается на новый объект класса - целочисленный массив и размер его 5
+        for (int i =0; i<numbers.length; i++){ //перменная равна 0 и инкрементируется до пока меньше длины массива
+            // длина массива определяется .length
+            // мы сделали массив и 5 пустых ячеек 0.1.2.3.4
+            // по умолчанию в них 0
+            // инициализируем иклом фор
+            numbers[i] = i*10;  // крутит 5 раз пока переменная меньше 5 и приисваевает ячейке число
         }
         for (int i = 0; i < numbers.length; i++){
-            System.out.println(numbers[i]);
+            System.out.println(numbers[i]); //выодим значения до техпор пока переменная равна 0
+        }
+        System.out.println();
+        //либо обозначить ячейки можно так
+        int [] numbers1 = {1,2,3,4,5,6};
+        for (int i = 0; i < numbers1.length; i++){
+            System.out.println(numbers1[i]);
         }
     }
 }
